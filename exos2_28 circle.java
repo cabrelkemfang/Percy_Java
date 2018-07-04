@@ -3,23 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package exos;
+import java.util.Scanner;
 
 /**
  *
  * @author percy-ashu
  */
-public class JavaApplication1 {
+public class exos2_28 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.print("Welcome \n to\n Java Programming!");
-        System.out.println("\nfirst prog");
-        System.out.printf("%s%n%s%n",
-"Welcome to", "Java Programming!");
-} // end method main
-    }
+        Scanner in = new Scanner(System.in);
+        int r;double circum;
+        System.out.print("Enter radius of circle \n ");
+        r = in.nextInt();
+        System.out.printf("Diameter = %d circumference =%f,area =%f ",2*r,(2*r)*Math.PI,(r*r)*Math.PI);
+        
         // TODO code application logic here
- 
+    }
+    
+}
