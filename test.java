@@ -22,6 +22,4 @@ public class JavaApplication1 {
 } // end method main
     }
         // TODO code application logic here
-    
-
-
+ 
