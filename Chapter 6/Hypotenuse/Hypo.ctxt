@@ -1,5 +1,0 @@
-#BlueJ class context
-comment0.target=Hypo
-comment1.params=s1\ s2
-comment1.target=double\ hypotenuse(int,\ int)
-numComments=2
